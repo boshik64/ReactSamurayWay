@@ -1,16 +1,17 @@
 import './App.css';
 import React from 'react';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import Profile from './components/Content/Profile/Profile';
+
 
 
 const App = () => {
   return (
-    <div className='App'>
-      <form className='form'>
-        <input className='form__input' placeholder='name' type={'text'} />
-        <input className='form__input' placeholder='email' type={'email'} />
-        <input className='form__input' placeholder='phone' type={'number'} />
-        <button className='form__btn'>Send</button>
-      </form>
+    <div className='app-wrapper'>
+      <Header />
+      <Navbar />
+      <Profile />
 
     </div>
   );
