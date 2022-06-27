@@ -1,0 +1,21 @@
+nav {
+    grid-area: n;
+    padding: 0 5px;
+    margin-left: 5px;
+}
+
+
+.navLink{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin: 3px 0;
+    transition: .3s;
+    display: flex;
+}
+
+.navLink:hover{
+    font-size: 18px;
+    transition: .3s;
+}
+ 

@@ -1,10 +1,14 @@
 import React from 'react';
+import MyPosts from './MyPosts/MyPosts';
+import './Profile.module.css';
 
 
 const Profile = () => {
-    return (<div className='pFrofile'>
-        dadadada
-    </div>);
+    return (
+        <div className='profile'>
+            <MyPosts />
+        </div>
+    );
 }
 
 export default Profile;

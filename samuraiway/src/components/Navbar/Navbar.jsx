@@ -1,11 +1,16 @@
 import React from 'react';
-import './NavbarStyles.css'
+import { Link } from 'react-router-dom';
+
+import navbar from './Navbar.module.css'
+
+
 
 const Navbar = () => {
     return (
         <nav>
-            <a href="#">Профиль</a>
-            <a href="#">Сообщения</a>
+
+            <Link className={navbar.navLink} to="/profile">Profile</Link>
+            <Link className={navbar.navLink} to="/dialogs">Dialogs</Link>
 
         </nav>
     );

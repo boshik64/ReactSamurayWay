@@ -1,0 +1,34 @@
+.dialogs {
+    
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas:
+        "d m";
+}
+
+.dialogs__items {
+    grid-area: d;
+}
+
+
+
+.dialog {
+    display: flex;
+}
+
+.dialog__active .item__name{
+    color: gold;
+}
+
+.item__ava {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.dialogs__messages {
+    grid-area: m;
+    width: 500px;
+}
